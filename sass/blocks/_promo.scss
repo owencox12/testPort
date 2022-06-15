@@ -1,0 +1,46 @@
+.promo {
+    padding-bottom: 104px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 39px;
+    }
+    &__item_burger {
+        display: none;
+    }
+    &__burger_list {
+        display: none;
+    }
+    &__item {
+        &_name {
+            font-family: 'Gilroy';
+            font-size: 47.3392px;
+            font-weight: 700;
+            line-height: 59px;
+            color: #070707;
+            width: 155px;
+        }
+        &_info {
+            font-family: 'Gilroy';
+            font-size: 18px;
+            line-height: 22px;
+            color: #070707;
+            font-weight: 500;
+            width: 175px;
+            margin-top: 69px;
+        }
+        &_language {
+            transform: rotate(90deg);
+            margin-top: 69px;
+            cursor: pointer;
+            &_active {
+                font-family: 'Gilroy';
+                font-weight: 700;
+                color: #000;
+            }
+        }
+    }
+    &__image {
+        padding-top: 49px;
+    }
+}

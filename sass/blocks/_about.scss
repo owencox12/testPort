@@ -1,0 +1,25 @@
+.about {
+    height: 506px;
+    background: #F6F6F6;
+    &__title {
+        font-family: 'Gilroy';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        padding-top: 120px;
+    }
+    &__descr {
+        font-family: 'Gilroy';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: #070707;
+        width: 475px;
+        margin: 0 auto;
+        margin-top: 17px;
+
+    }
+}

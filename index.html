@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol viewBox="0 0 56.7 56.7" id="instagram">
+            <g>
+                <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
+                    c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z"/>
+                <circle cx="41.5" cy="16.4" r="2.9"/>
+                <path d="M49,8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7,0-14.5,5.8-14.5,14.5v20.5c0,4.3,1.4,8,4.2,10.7c2.7,2.6,6.3,3.9,10.4,3.9
+                    h20.4c4.3,0,7.9-1.4,10.5-3.9c2.7-2.6,4.1-6.3,4.1-10.6V19.3C53,15.1,51.6,11.5,49,8.9z M48.6,39.9c0,3.1-1.1,5.6-2.9,7.3
+                    s-4.3,2.6-7.3,2.6H18c-3,0-5.5-0.9-7.3-2.6C8.9,45.4,8,42.9,8,39.8V19.3c0-3,0.9-5.5,2.7-7.3c1.7-1.7,4.3-2.6,7.3-2.6h20.6
+                    c3,0,5.5,0.9,7.3,2.7c1.7,1.8,2.7,4.3,2.7,7.2V39.9L48.6,39.9z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="basket" viewBox="0 0 60 60">
+            <g fill="#000000" id="Icon-59"><path d="M11.9512,51.3828 C16.6342,42.1088 25.2722,35.0618 35.3212,32.3148 C38.2952,39.7238 40.3052,47.5348 41.2912,55.6128 C37.8352,57.1438 34.0162,57.9998 30.0002,57.9998 C23.1282,57.9998 16.8292,55.5068 11.9512,51.3828 M2.0002,29.9998 C2.0002,28.9308 2.0662,27.8768 2.1832,26.8378 C5.7562,27.5958 9.3872,27.9998 13.0002,27.9998 C19.5022,27.9998 25.8072,26.8228 31.7632,24.5268 C32.7632,26.4688 33.6862,28.4468 34.5442,30.4548 C24.2412,33.3478 15.3702,40.5328 10.4202,49.9888 C5.2282,44.9038 2.0002,37.8228 2.0002,29.9998 M18.0242,4.6958 C23.0442,10.2508 27.3232,16.3028 30.8182,22.7448 C25.1582,24.8968 19.1732,25.9998 13.0002,25.9998 C9.4862,25.9998 5.9542,25.6038 2.4812,24.8588 C4.1452,15.9338 10.0512,8.4858 18.0242,4.6958 M49.6032,10.0318 C45.4812,14.4658 40.6652,18.0868 35.2562,20.7808 C34.7622,21.0288 34.5602,21.6288 34.8062,22.1228 C34.9822,22.4738 35.3362,22.6768 35.7032,22.6768 C35.8522,22.6768 36.0052,22.6438 36.1482,22.5718 C41.7352,19.7878 46.7142,16.0538 50.9802,11.4868 C55.3442,16.4258 58.0002,22.9058 58.0002,29.9998 C58.0002,30.4118 57.9862,30.8208 57.9692,31.2298 C53.7982,29.7548 49.4422,28.9998 45.0002,28.9998 C43.2152,28.9998 41.4172,29.1218 39.6582,29.3638 C39.1112,29.4388 38.7282,29.9438 38.8042,30.4898 C38.8782,31.0368 39.3792,31.4238 39.9302,31.3448 C41.5992,31.1158 43.3052,30.9998 45.0002,30.9998 C49.3912,30.9998 53.6912,31.7788 57.8002,33.2958 C56.7072,42.5668 51.0732,50.4638 43.1842,54.6938 C40.7322,35.7138 32.7292,18.2008 19.9612,3.8678 C23.0802,2.6658 26.4632,1.9998 30.0002,1.9998 C37.6272,1.9998 44.5482,5.0688 49.6032,10.0318 M60.0002,29.9998 C60.0002,21.9948 56.8432,14.7188 51.7162,9.3338 C51.6952,9.3128 51.6852,9.2838 51.6632,9.2638 C51.6532,9.2548 51.6392,9.2528 51.6302,9.2438 C46.1672,3.5528 38.4932,-0.0002 30.0002,-0.0002 C25.7202,-0.0002 21.6492,0.9068 17.9622,2.5288 C17.9422,2.5358 17.9252,2.5468 17.9062,2.5548 C7.3722,7.2158 0.0002,17.7598 0.0002,29.9998 C0.0002,38.8348 3.8412,46.7878 9.9382,52.2828 C9.9622,52.3118 9.9952,52.3298 10.0222,52.3558 C15.3312,57.1058 22.3332,59.9998 30.0002,59.9998 C34.5892,59.9998 38.9382,58.9608 42.8312,57.1118 C42.8492,57.1018 42.8692,57.0968 42.8872,57.0858 C52.9972,52.2568 60.0002,41.9318 60.0002,29.9998" id="social-dribbble"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="linkedin" viewBox="0 0 128 128">
+            <path class="cls-1" d="M106.09,20.5a1.41,1.41,0,0,1,1.41,1.41v84.19a1.41,1.41,0,0,1-1.41,1.41H21.91a1.41,1.41,0,0,1-1.41-1.41V21.91a1.41,1.41,0,0,1,1.41-1.41h84.19m0-6.5H21.91A7.91,7.91,0,0,0,14,21.91v84.19A7.91,7.91,0,0,0,21.91,114h84.19a7.91,7.91,0,0,0,7.91-7.91V21.91A7.91,7.91,0,0,0,106.09,14Z"/><rect class="cls-1" height="41.73" width="11.73" x="37.27" y="50.4"/><path class="cls-1" d="M77.23,50.4C67.18,50.4,67,56.21,67,56.61V50.4H55V92.13H67V68.31c0-1.86.55-5.86,6.23-5.86s5.63,5.73,5.63,5.73v24H90.73v-26C90.73,53.85,84,50.4,77.23,50.4Z"/><circle class="cls-1" cx="43.13" cy="41.73" r="5.86"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="behance" viewBox="0 0 512 512">
+            <path d="M143.353,356.876c6.823,0 13.318,-0.606 19.426,-1.975c6.205,-1.345 11.695,-3.502 16.348,-6.678c4.63,-3.053 8.483,-7.247 11.271,-12.555c2.799,-5.283 4.144,-12.142 4.144,-20.42c0,-16.227 -4.581,-27.764 -13.657,-34.756c-9.114,-6.908 -21.245,-10.337 -36.163,-10.337l-75.39,0l0,86.721l74.021,0Zm-3.842,-134.057c12.276,0 22.456,-2.909 30.515,-8.822c7.974,-5.83 11.828,-15.44 11.828,-28.649c0,-7.32 -1.272,-13.379 -3.854,-18.081c-2.678,-4.702 -6.229,-8.374 -10.688,-10.956c-4.436,-2.678 -9.453,-4.52 -15.258,-5.526c-5.72,-1.115 -11.694,-1.551 -17.839,-1.551l-64.883,0l0,73.585l70.179,0Zm8.968,-127.235c15.064,0 28.661,1.297 41.083,4c12.361,2.617 22.892,6.992 31.811,12.991c8.774,5.999 15.645,13.973 20.566,24.019c4.787,9.901 7.198,22.299 7.198,36.95c0,15.851 -3.587,29.097 -10.798,39.689c-7.247,10.568 -17.899,19.232 -32.114,25.97c19.353,5.575 33.726,15.379 43.239,29.328c9.562,14.045 14.252,30.842 14.252,50.547c0,15.972 -3.054,29.715 -9.174,41.288c-6.168,11.707 -14.567,21.196 -24.916,28.516c-10.434,7.38 -22.395,12.809 -35.823,16.336c-13.27,3.514 -27.049,5.296 -41.179,5.296l-152.624,0l0,-314.93l148.479,0Z" style="fill:#030404;fill-rule:nonzero;"/><path d="M434.517,236.016c-7.453,-8.228 -20.044,-12.688 -35.423,-12.688c-10.01,0 -18.287,1.684 -24.928,5.114c-6.496,3.393 -11.804,7.598 -15.863,12.567c-4.048,5.042 -6.787,10.374 -8.399,16.07c-1.599,5.55 -2.569,10.579 -2.848,15.027l101.895,0c-1.491,-15.973 -6.956,-27.788 -14.434,-36.09Zm-71.973,119.818c9.392,9.162 22.953,13.767 40.525,13.767c12.628,0 23.535,-3.187 32.697,-9.562c9.076,-6.362 14.603,-13.161 16.735,-20.214l55.165,0c-8.871,27.449 -22.311,47.045 -40.671,58.849c-18.141,11.84 -40.246,17.742 -66.022,17.742c-17.96,0 -34.127,-2.909 -48.645,-8.629c-14.506,-5.805 -26.625,-13.924 -36.829,-24.528c-9.937,-10.641 -17.657,-23.22 -23.159,-37.992c-5.441,-14.7 -8.18,-30.976 -8.18,-48.609c0,-17.051 2.848,-32.975 8.423,-47.699c5.671,-14.773 13.549,-27.522 23.886,-38.21c10.361,-10.75 22.638,-19.233 36.938,-25.438c14.312,-6.168 30.09,-9.27 47.566,-9.27c19.293,0 36.174,3.708 50.668,11.27c14.421,7.465 26.261,17.572 35.556,30.224c9.283,12.628 15.912,27.073 20.045,43.276c4.096,16.179 5.538,33.072 4.362,50.765l-164.548,0c0,18.033 6.084,35.096 15.488,44.258Z" style="fill:#030404;fill-rule:nonzero;"/>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__menu">
+                    <ul class="header__menu_list">
+                        <li class="header__menu_list_type"><a href="#">Home</a></li>
+                        <li class="header__menu_list_type"><a href="#">About me</a></li>
+                        <li class="header__menu_list_type"><a href="#">Skills</a></li>
+                        <li class="header__menu_list_type"><a href="#">Portfolio</a></li>
+                        <li class="header__menu_list_type"><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="container">
+            <div class="promo__blocks">
+            <div class="promo__wrapper">
+                <div class="promo__item">
+                    <div class="promo__item_name">
+                        Denis <br>
+                        Suchkov
+                    </div>
+                </div>
+                <div class="promo__item">
+                    <div class="promo__item_info">
+                        UX | UI designer
+                        21 years old, Ivanovo
+                    </div>
+                </div>
+                <div class="promo__item">
+                    <div class="promo__item_language">
+                        <span class="promo__item_language_active">EN</span> / <span>RU</span>
+                    </div>
+                </div>
+            </div>
+            <div class="promo__item_burger">
+                <span></span>
+            </div>
+            <div class="promo__burger_list">
+                <ul class="promo__burger_list_menu">
+                    <li class="promo__burger_list_menu_type"><a href="#">Home</a></li>
+                    <li class="promo__burger_list_menu_type"><a href="#">About me</a></li>
+                    <li class="promo__burger_list_menu_type"><a href="#">Skills</a></li>
+                    <li class="promo__burger_list_menu_type"><a href="#">Portfolio</a></li>
+                    <li class="promo__burger_list_menu_type"><a href="#">Contacts</a></li>
+                </ul>
+                <div class="promo__burger_list_language">
+                    <span class="promo__burger_list_language_active">EN</span> / <span>RU</span>
+                </div>
+            </div>
+            </div>
+            <div class="promo__image">
+                <img src="image/promoIMG.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__title">
+                About me
+            </div>
+            <div class="about__descr">
+                Hi, I'm Denis – UX/UI designer from Minsk. 
+                I'm interested in design and everything connected with it.
+
+                I'm studying at courses "Web and mobile design 
+                interfaces" in IT-Academy.
+
+                Ready to implement excellent projects
+                with wonderful people.
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="skills__title">
+                Skills
+            </div>
+            <div class="skills__text">
+                I work in such programs as
+            </div>
+            <div class="skills__wrapper">
+                <div class="skills__item">
+                    <div class="skills__item_image">
+                        <img src="image/skills1.png" alt="">
+                    </div>
+                    <div class="skills__item_descr">
+                        Adobe
+                        Photoshop
+                    </div>
+                    <div class="skills__item_star">
+                        <img src="image/star1.png" alt="">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item_image">
+                        <img src="image/skills2.png" alt="">
+                    </div>
+                    <div class="skills__item_descr">
+                        Adobe 
+                        Illustrator
+                    </div>
+                    <div class="skills__item_star">
+                        <img src="image/star2.png" alt="">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item_image">
+                        <img src="image/skills3.png" alt="">
+                    </div>
+                    <div class="skills__item_descr">
+                        Adobe 
+                        After Effects
+                    </div>
+                    <div class="skills__item_star">
+                        <img src="image/star1.png" alt="">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item_image">
+                        <img src="image/skills4.png" alt="">
+                    </div>
+                    <div class="skills__item_descr">
+                        Figma
+                    </div>
+                    <div class="skills__item_star">
+                        <img src="image/star1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__title">
+                Portfolio
+            </div>
+            <div class="portfolio__wrapper">
+                <div class="portfolio__item">
+                    <div class="portfolio__item_image">
+                        <img src="image/portfolio1.png" alt="">
+                    </div>
+                    <div class="portfolio__item_descr">
+                        <a href="#">Online fashion store - Homepage</a>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="portfolio__item_image">
+                        <img src="image/portfolio2.png" alt="">
+                    </div>
+                    <div class="portfolio__item_descr">
+                        <a href="#">Reebok Store - Concept</a>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="portfolio__item_image">
+                        <img src="image/portfolio3.png" alt="">
+                    </div>
+                    <div class="portfolio__item_descr">
+                        <a href="#">Braun Landing Page - Concept</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__title">
+                Contacts
+            </div>
+            <div class="contact__descr">
+                Want to know more or just chat? 
+                You are welcome!
+            </div>
+            <div class="contact__button">
+                <button class="button button--contact"><span>Send message</span></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__icons">
+                <div class="footer__icons_icon">
+                    <svg><use xlink:href="#instagram"></use></svg>
+                </div>
+                <div class="footer__icons_icon">
+                    <svg><use xlink:href="#behance"></use></svg>
+                </div>
+                <div class="footer__icons_icon">
+                    <svg><use xlink:href="#linkedin"></use></svg>
+                </div>
+                <div class="footer__icons_icon">
+                    <svg><use xlink:href="#basket"></use></svg>
+                </div>
+            </div>
+            <div class="footer__descr">
+                Like me on
+                LinkedIn, Instagram, Behance, Dribble
+            </div>
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.contact {
+    min-height: 200px;
+    padding-bottom: 50px;
+    &__title {
+        font-family: 'Gilroy';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        padding-top: 114px;
+    }
+    &__descr {
+        font-family: 'Gilroy';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        width: 275px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &__button {
+        margin-top: 29px;
+        text-align: center;
+        button {
+            width: 180px;
+            height: 42px;
+            background: #070707;
+            border-radius: 20px;
+            span {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

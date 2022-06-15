@@ -1,0 +1,30 @@
+.header {
+    &__wrapper {
+        display: flex;
+        border-bottom: 1px solid #828282;
+        padding-bottom: 43px;
+    }
+    &__menu {
+        padding-top: 33px;
+        ul {
+            display: flex;
+            li {
+                margin: 0 77px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    font-family: 'Gilroy';
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #828282;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

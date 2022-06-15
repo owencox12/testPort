@@ -1,0 +1,31 @@
+.footer {
+    min-height: 200px;
+    padding-top: 30px;
+    &__icons {
+        display: flex;
+        justify-content: center;
+        &_icon {
+            margin: 0 20px;
+            cursor: pointer;
+            svg {
+                width: 40px;
+                height: 40px;
+                &:hover {
+                    fill: gray;
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+    &__descr {
+        font-family: 'Gilroy';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+        width: 243px;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+}

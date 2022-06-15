@@ -1,0 +1,189 @@
+@media (max-width: 1000px) {
+    .container {
+        max-width: 720px;
+    }
+    .portfolio__item_image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .portfolio {
+        height: 2000px;
+    }
+    .promo__image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .header {
+        display: none;
+    }
+    .promo__wrapper {
+        flex-wrap: wrap;
+    }
+    .promo__item {
+        width: 100%;
+        &:nth-child(3) {
+            display: none;
+        }
+    }
+    .promo__item_burger {
+        position: relative;
+        width: 50px;
+        height: 20px;
+        z-index: 1000;
+        top: 50px;
+        right: 3%;
+        display: block;
+        &_active {
+            span {
+                display: none;
+            }
+            &::before {
+                transform: rotate(-45deg);
+                bottom: 9%;
+            }
+            &::after {
+                transform: rotate(45deg);
+                top: 9%;
+            }
+        }
+        span {
+            position: absolute;
+            top: 9px;
+            height: 4px;
+            width: 100%;
+            background: #000;
+            transition: all .3s;
+            right: 0;
+        }
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            top: 0;
+            left: 0;
+            transition: all .3s;
+            background: #000;
+            content: '';
+        }
+        &::after {
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            bottom: -16%;
+            right: 0;
+            transition: all .3s;
+            background: #000;
+            content: '';
+        }
+    }
+    .promo__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo__burger_list {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        left: -100%;
+        top: 0;
+        transition: all .3s;
+        display: block;
+        &_active {
+            transition: all .3s;
+            left: 0;
+        }
+
+        &_menu {
+            padding-left: 50px;
+            padding-top: 66px;
+            &_type {
+                margin: 20px 0;
+                a {
+                    font-family: 'Gilroy';
+                    font-size: 34px;
+                    line-height: 42px;
+                    font-weight: 700;
+                    color: #828282;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_language {
+            position: absolute;
+            right: 0;
+            transform: rotate(90deg);
+            span {
+                font-family: 'Gilroy';
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 42px;
+                color: #828282;
+
+            }
+            &_active {
+                color: #000 !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 520px;
+    }
+    .skills {
+        padding-bottom: 100px;
+    }
+    .skills__wrapper {
+        flex-wrap: wrap;
+    }
+    .skills__item {
+        width: 50%;
+    }
+    .skills__item {
+        &:nth-child(3) {
+            margin-top: 40px;
+        }
+        &:nth-child(4) {
+            margin-top: 40px;
+        }
+    }
+    .skills__item_star {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .portfolio {
+        height: 1600px;
+    }
+}
+
+@media (max-width: 571px) {
+    .container {
+        max-width: 320px;
+    }
+    .about__descr {
+        width: 250px;
+    }
+    .skills__item {
+        width: 100%;
+        &:nth-child(2) {
+            margin-top: 40px;
+        }
+    }
+    .portfolio__title {
+        padding-top: 50px;
+    }
+    .promo {
+        padding-bottom: 50px;
+    }
+    .portfolio {
+        height: 1200px;
+    }
+}

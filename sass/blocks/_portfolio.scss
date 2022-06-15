@@ -1,0 +1,33 @@
+.portfolio {
+    height: 2253px;
+    background: #F6F6F6;
+    padding-bottom: 50px;
+    &__title {
+        font-family: 'Gilroy';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        padding-top: 112px;
+    }
+    &__wrapper {
+
+    }
+    &__item {
+        margin-top: 100px;
+        &_descr {
+            text-align: center;
+            margin-top: 44px;
+            a {
+                font-family: 'Gilroy';
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                text-align: center;
+                text-decoration-line: underline;
+                color: #070707;
+            }
+        }
+    }
+}

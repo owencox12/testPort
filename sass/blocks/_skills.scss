@@ -1,0 +1,44 @@
+.skills {
+    min-height: 610px;
+    &__title {
+        font-family: 'Gilroy';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        color: #070707;
+        padding-top: 91px;
+    }
+    &__text {
+        font-family: 'Gilroy';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        color: #070707;
+        margin-top: 69px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 83px;
+    }
+    &__item {
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_descr {
+            font-family: 'Gilroy';
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px;
+            text-align: center;
+            color: #828282;
+            margin-top: 24px;
+            margin-bottom: 40px;
+        }
+    }
+}
